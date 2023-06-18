@@ -199,7 +199,7 @@ exports.updateProduct = asyncHandler(async (req, res, next) => {
 
 exports.getAllProducts = asyncHandler(async (req, res, next) => {
   const Products = await getAllProductsInIndustry(req.params["industry"]);
-  console.log("products",Products)
+  // console.log("products",Products)
 
   res.status(200).json({
     Products,
