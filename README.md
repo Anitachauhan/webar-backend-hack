@@ -1,10 +1,10 @@
-# Web AR Framework Backend [Live Demo](https://webar-frontend.herokuapp.com/)
+# Web AR Framework Backend 
 ## Download and Installation
 
 To begin using this framework, choose one of the following options to get started:
 * Clone the repo: `git clone https://github.com/Anitachauhan/webar-backend-hack`
 * [Fork, Clone, or Download on GitHub](https://github.com/Anitachauhan/webar-backend-hack)
-* [Clone the frontend repo](https://github.com/Anitachauhan/webar-frontend)
+* [Clone the frontend repo](https://github.com/Anitachauhan/webar-frontend-hack.git)
 
 ### Technology
 
