@@ -3,15 +3,11 @@ require("dotenv").config({ path: "../.env" });
 const connectDB = async () => {
   await mongoose
     .connect(process.env.MONGO_URL, {
-      // auth: {
-      //   username: process.env.COSMOSDB_USER,
-      //   password: process.env.COSMOSDB_PASSWORD,
-      // },
       useNewUrlParser: true,
       useUnifiedTopology: true,
       retryWrites: false,
     })
-    .then(() => console.log("Connection to CosmosDB successful"))
+    .then(() => console.log("Connection to DB successful"))
     .catch((err) => console.error(err));
 };
 
